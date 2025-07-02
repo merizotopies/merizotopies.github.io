@@ -61,7 +61,6 @@
     }
 
     #intro-image {
-        height: 40rem;
     }
 
     #intro {
@@ -89,6 +88,22 @@
     display: inline-block;
     margin-left: 9em;
     }
+
+    figure {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      padding: 20%;
+    }
+
+    figure img {
+      width: 100%;
+      align-self: center;
+    }
+
+    figcaption {
+      text-align: justify;
+    }
   </style>
 </head>
 <body>
@@ -100,7 +115,14 @@
     </h1>
 
   <p id="intro">
-    <img id="intro-image" src="./media/media/image1.jpeg" alt="illustration" />
+    <figure>
+      <img id="intro-image" src="./media/media/image1.jpeg" alt="illustration" />
+      <figcaption>
+        <em><span style="width: 100%; display: inline-block; text-align: center;">Refaire le Puzzle à partir du réel</span><br />
+        Celui d’une planète « Terre » engagée dans un système de transformation physico-chimique de longue date. Une planète abri d’un processus d’évolution et transformation incessant : le « Vivant ».<br />
+        Et au sein de cette communauté complexe, une Espèce qui n’a pour raison d’être que de s’associer aux autres en comprenant et pratiquant la langue commune celle de la « Co-évolution », tout en contribuant à assurer les conditions d’un maintien durable de l’Éco-système global.</em>
+      </figcaption>
+    </figure>
   </p>
 
 <p><em>Refaire le Puzzle à partir du réel<br />
